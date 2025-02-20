@@ -91,5 +91,6 @@ public class teacherdemo {
             System.out.println("\n_____NO."+i+"_____");
             p[i].disp();
         }
+        sc.close();
     }
 }

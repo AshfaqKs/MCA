@@ -5,7 +5,7 @@ public class Sphere extends Circle{
     public Sphere(double ra){
         super(ra);
     }
-    public double vol(){
+    public double volu(){
         return (4/3.0)*Math.PI*Math.pow(r, 3);
     }
 }

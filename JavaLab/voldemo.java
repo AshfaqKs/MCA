@@ -11,10 +11,27 @@ class Cube{
         System.out.println("Cube Volume : "+ a*a*a);
     }
 }
-class Sphere{
+class Spher{
+
+
     public void vol(double r)
     {
         System.out.println("Sphere Volume : "+ (4/3)*Math.PI*r*r*r);
+    }
+
+    public String area() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'area'");
+    }
+
+    public String peri() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'peri'");
+    }
+
+    public String volu() {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'volu'");
     }
 }
 class Cylinder{
@@ -35,7 +52,7 @@ public class voldemo
     {
         Cuboid r = new Cuboid();
         Cube sq = new Cube();
-        Sphere sp = new Sphere();
+        Spher sp = new Spher();
         Cylinder c = new Cylinder();
         Cone t = new Cone();
         r.vol(2,3,4);
